@@ -4,6 +4,7 @@ import { ReactComponent as Logo } from 'assets/logo.svg';
 import React from 'react'
 import Filtros from './Filtros';
 import Ordenador from './Ordenador/index'
+import Itens from './Itens';
 
 export default function Cardapio () {
 const [busca, setBusca] = React.useState("")
@@ -31,6 +32,7 @@ const [ordenador, setOrdenador] = React.useState("")
                         ordenador={ordenador}
                         setOrdenador={setOrdenador}/>
                 </div>
+                <Itens  busca={busca} filtro={filtro} ordenador={ordenador} />
                </section>
             </nav>
         </main>

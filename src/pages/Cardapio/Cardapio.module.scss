@@ -55,7 +55,6 @@
     font-size: 3rem;
     margin-bottom: 30px;
   }
-  
   &__filtros {
     align-items: center;
     display: flex;
@@ -63,9 +62,5 @@
     justify-content: space-between;
     margin-bottom: 30px;
     width: 100%;
-    @media(min-width: $desktop_hd) {
-      width: 340px
-    }
   }
-
 }
