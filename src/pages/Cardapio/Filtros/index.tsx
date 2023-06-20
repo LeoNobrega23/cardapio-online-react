@@ -1,4 +1,3 @@
-import { type } from 'os'
 import filtros from './filtros.json'
 import styles from './Filtros.module.scss'
 import React from 'react'

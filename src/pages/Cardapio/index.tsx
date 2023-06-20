@@ -16,7 +16,7 @@ const [ordenador, setOrdenador] = React.useState("")
                <Logo />
                <header className={styles.header}>
                 <div className={styles.header__text}>
-                    Casa de massas e diversosc
+                    Casa de massas e diversos
                 </div>
                </header>
 

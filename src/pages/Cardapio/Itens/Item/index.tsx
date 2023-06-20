@@ -6,7 +6,7 @@ import classNames from 'classnames';
 type Props = typeof cardapio[0];
 
 export default function Item (props: Props) {
-    const {title, description, id, category, price, serving,size, photo } = props
+    const {title, description, category, price, serving,size, photo } = props
     return(
         <div className={styles.item}>
             <div className={styles.item__imagem}>

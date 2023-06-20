@@ -4,7 +4,7 @@
 .menu {
   padding: 20px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-    padding: 20px $padding-horizontal-mobile;
+    padding: 20px 0px;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 20px $padding-horizontal-sm;
@@ -23,7 +23,7 @@
   height: 300px;
   padding: 0px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-    padding: 0px $padding-horizontal-mobile;
+    padding: 0px ;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 0px $padding-horizontal-sm;
@@ -36,6 +36,10 @@
     font-size: 5rem;
     min-width: 400px;
     width: 40%;
+    @media(max-width: 500px){
+      font-size: 3rem;
+      text-align: center;
+    }
   }
 }
 
