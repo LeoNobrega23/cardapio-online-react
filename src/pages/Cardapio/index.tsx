@@ -1,5 +1,6 @@
 import Buscador from './Buscador';
 import styles from './Cardapio.module.scss';
+
 import React from 'react'
 import Filtros from './Filtros';
 import Ordenador from './Ordenador/index'
@@ -12,7 +13,7 @@ const [ordenador, setOrdenador] = React.useState("")
     return (
         <main>
             <nav className={styles.menu}>
-              <div className={styles.logo}></div>
+               {/* Logo aqui */}
                <header className={styles.header}>
                 <div className={styles.header__text}>
                     Casa de massas e diversos
