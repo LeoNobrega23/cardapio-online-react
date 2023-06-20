@@ -1,6 +1,5 @@
 import Buscador from './Buscador';
 import styles from './Cardapio.module.scss';
-import { ReactComponent as Logo } from 'assets/favicon.svg';
 import React from 'react'
 import Filtros from './Filtros';
 import Ordenador from './Ordenador/index'
@@ -13,7 +12,7 @@ const [ordenador, setOrdenador] = React.useState("")
     return (
         <main>
             <nav className={styles.menu}>
-               <Logo />
+              <div className={styles.logo}></div>
                <header className={styles.header}>
                 <div className={styles.header__text}>
                     Casa de massas e diversos
